@@ -26,9 +26,7 @@
           </div>
           <div class="name">
             <div>Address:</div>
-            <span class="span-2"
-              >Liberation Crescent</span
-            >
+            <span class="span-2">Liberation Crescent</span>
           </div>
           <div class="name">
             <div>Stack:</div>
@@ -147,17 +145,15 @@
             <div class="box">
               <div class="centage">
                 <svg>
-                <circle cx='70' cy='70' r='70'></circle>
-                <circle cx='70' cy='70' r='70'></circle>
-              </svg>
-              <div class="number">
-                <h2>80 <span>%</span></h2>
-              </div>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="number">
+                  <h2>80 <span>%</span></h2>
+                </div>
               </div>
               <div class="per-text">English</div>
             </div>
-              
-            
           </div>
         </div>
         <div class="service">
@@ -167,16 +163,19 @@
           </div>
           <div class="list">
             <div class="items">
-              <fa icon="angle-right" class="icon" />Web Development
+              <fa icon="graduation-cap" class="icon" />AmaliTech Graduate
+              Training
             </div>
             <div class="items">
-              <fa icon="angle-right" class="icon" />Web Development
+              <fa icon="graduation-cap" class="icon" />Codecademy
             </div>
             <div class="items">
-              <fa icon="angle-right" class="icon" />Web Development
+              <fa icon="graduation-cap" class="icon" />Certified Learning
+              Solutions Gh Ltd
             </div>
             <div class="items">
-              <fa icon="angle-right" class="icon" />Web Development
+              <fa icon="graduation-cap" class="icon" />Ghana Technology
+              University College
             </div>
           </div>
         </div>
@@ -186,19 +185,38 @@
               EXPERIENCE
               <div class="span-3"></div>
             </div>
-            <div class="list">
-              <div class="items">
-                <fa icon="angle-right" class="icon" />Web Development
+            <div class="list experience">
+              <div class="experience2">
+                <div class="years">
+                  <fa icon="user-tie" class="icon" /><span class="yrs">present</span> 
+                </div>
+                <div class="years">
+                  <fa icon="user-tie" class="icon" /><span class="yrs">present</span>
+                </div>
+                <div class="years">
+                  <fa icon="user-tie" class="icon" /><span class="yrs">2020</span>
+                </div>
+                <div class="years">
+                  <fa icon="user-tie" class="icon" /><span class="yrs">2018</span>
+                </div>
               </div>
-              <div class="items">
-                <fa icon="angle-right" class="icon" />Web Development
+              <div class="experience1">
+                <div class="inner-exp">
+                  <div class="items inner">
+                     Lasting Dynamics Academy
+                  </div>
+                  <div class="items inner">
+                    AmaliTech Services
+                  </div>
+                  <div class="items inner">
+                    OctaMesh Technologies
+                  </div>
+                  <div class="items inner">
+                    Tang Palace Hotel
+                  </div>
+                </div>
               </div>
-              <div class="items">
-                <fa icon="angle-right" class="icon" />Web Development
-              </div>
-              <div class="items">
-                <fa icon="angle-right" class="icon" />Web Development
-              </div>
+              
             </div>
           </div>
         </div>
@@ -266,10 +284,10 @@ export default {};
   font-weight: 500;
 }
 .services {
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 .service {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   display: flex;
   flex-direction: column;
 }
@@ -314,6 +332,10 @@ export default {};
   color: #b9b8c3;
   padding-bottom: 1rem;
 }
+/* .inner {
+  color: #000;
+  font-weight: 500;
+} */
 .list {
   margin-top: 3.5rem;
 }
@@ -321,7 +343,6 @@ export default {};
   background-color: #b9b8c3;
   height: 3px;
   margin-top: 0.4rem;
-  
 }
 .bar-inner {
   background-color: #7d7789;
@@ -410,7 +431,6 @@ export default {};
 }
 .box .centage svg circle {
   position: relative;
-  /* text-align: center; */
   fill: none;
   stroke-width: 10;
   stroke: #000;
@@ -422,5 +442,29 @@ export default {};
   left: 0;
   color: #b9b8c3;
 }
-
+.experience {
+  display: flex;
+  grid-template: 1fr 1fr;
+}
+.experience1 {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid; */
+  padding-left: 10px;
+}
+.experience2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.years {
+  color: #b9b8c3;
+  padding-bottom: 1rem;
+}
+.yrs {
+  font-weight: 400;
+  padding: 3px 6px;
+  border-radius: 50px ;
+  background-color: #e9eef2;
+}
 </style>
