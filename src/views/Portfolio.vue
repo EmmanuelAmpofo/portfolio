@@ -10,9 +10,18 @@
           <div class="span-1"></div>
         </div>
         <div class="cards">
-          
-          <div class="in">dsjgksdg</div>
-          <div class="in2">sdgjfgh</div>
+
+          <div class="in">
+            <img src="../assets/amalifair.jpg" alt="">
+          </div>
+          <div class="in2">
+            <img src="../assets/capture.jpg" alt="">
+          </div>
+          <div class="in2">image</div>
+          <div class="in2">image</div>
+          <div class="in2">image</div>
+          <div class="in2">image</div>
+
         </div>
       </div>
     </div>
@@ -23,7 +32,7 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 .portfolio {
   background: #f6fbff;
   padding: 5.5rem;
@@ -55,15 +64,17 @@ export default {};
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
+  padding-top: 5rem;
 }
 .in {
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   border: 1px solid greenyellow;
 }
 .in2 {
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   border: 1px solid red;
 }
+
 </style>
