@@ -10,6 +10,9 @@
           <div class="span-1"></div>
         </div>
         <div class="cards">
+          
+          <div class="in">dsjgksdg</div>
+          <div class="in2">sdgjfgh</div>
         </div>
       </div>
     </div>
@@ -49,5 +52,18 @@ export default {};
 }
 .cards {
   border: 1px solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+.in {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid greenyellow;
+}
+.in2 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
 }
 </style>
